@@ -14,8 +14,10 @@
   --border-subtle: rgba(16, 185, 129, 0.12);
 }
 
-html {
-  scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
