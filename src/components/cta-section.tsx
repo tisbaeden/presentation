@@ -21,6 +21,7 @@ export function CTASection() {
         projets réalisés chez EY Fabernovel.
       </p>
       <button
+        type="button"
         className="rounded-xl px-8 py-3.5 text-sm font-bold tracking-wide transition-all duration-300 hover:-translate-y-0.5"
         style={{
           background: "linear-gradient(135deg, #065F46 0%, #047857 100%)",
